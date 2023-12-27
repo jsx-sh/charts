@@ -1,5 +1,5 @@
 name: jsx-sh/helm-charts
-title: jsx-sh/helm-charts
+title: null
 plugins:
   - jekyll-relative-links
 relative_links:
