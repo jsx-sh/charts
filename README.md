@@ -17,6 +17,6 @@ helm repo update
 
 | Chart | Description |
 | ----- | ----------- |
-| [deno-kv](./charts/deno-kv) | A Helm chart for deploying [deno-kv](https://(https://github.com/denoland/denokv). |
+| [deno-kv](./charts/deno-kv) | A Helm chart for deploying [denokv](https://github.com/denoland/denokv). |
 
 <br />
