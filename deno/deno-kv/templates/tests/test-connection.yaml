@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "deno-kv.fullname" . }}-test-connection"
+  labels:
+    {{- include "deno-kv.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "deno-kv.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
