@@ -1,3 +1,8 @@
+---
+name: jsx-sh/deno-kv
+title: jsx-sh/deno-kv
+---
+
 # jsx-sh/deno-kv
 
 This repository contains the source files for the [Helm](https://helm.sh) chart published to the [helm.jsx.sh](https://helm.jsx.sh) Helm repository.
